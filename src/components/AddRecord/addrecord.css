@@ -1,0 +1,39 @@
+.addrecord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    min-height: 100vh;
+}
+
+.loginform{
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    border: 0.5px solid green;
+    /* box-shadow: 5px 10px #888888; */
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.login-heading{
+    color: rgb(57, 57, 230);
+    margin-bottom: 30px;
+}
+
+.form-group{
+    margin: 10px 0;
+    text-align: left;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-group input{
+    width: 100%;
+}
+
+.login-btn{
+    margin-top: 25px;
+}

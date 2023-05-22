@@ -1,0 +1,39 @@
+
+.dashboard-page{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .logout-btn{
+    position: absolute;    
+} */
+
+
+.dash-heading{
+    display: inline;
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.dash-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.view-btn, .add-btn{
+    display: block;
+    border: none;
+    margin: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
